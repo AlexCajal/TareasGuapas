@@ -14,8 +14,8 @@ export default function Registro(){
 
     function doRegistro(){
                 if (usuario.nombre && usuario.apellidos && usuario.email && usuario.password ){
-                        nav("/")
-                        const asasd = registro(usuario);
+                        //nav("/")
+                        const token = registro(usuario);
                 }else{setError("Rellena todos los campos")}
     }
 
